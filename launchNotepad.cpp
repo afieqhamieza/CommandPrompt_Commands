@@ -2,8 +2,6 @@
 #include <chrono>
 using namespace std;
 
-
-
 int main()
 {
 	clock_t begin = clock();
@@ -16,4 +14,5 @@ int main()
 
 	system("Taskkill /IM Notepad.exe /F");
 
+	return 0;
 }
